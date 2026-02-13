@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-02-13T10:47:55.575574",
+  "last_check": "2026-02-13T11:28:35.032873",
   "alerts": [
     {
       "code": "4530",
@@ -18,6 +18,12 @@
       "title": "Línea 44. Corte al tráfico en Alcantarilla por Carnaval 13 y 15 febrero",
       "line": "44",
       "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4534"
+    },
+    {
+      "code": "4538",
+      "title": "Linea 31. Corte al tráfico por prueba deportiva 15 febrereo",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4538"
     },
     {
       "code": "4509",
