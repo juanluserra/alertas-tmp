@@ -2,7 +2,7 @@
 
 Todos los cambios notables de este proyecto serán documentados en este archivo.
 
-## [2.0.0] - 2026-02-13
+## [1.0.0] - 2026-02-13
 
 ### 🎉 Nueva Funcionalidad Principal: Sistema de Suscripciones
 
@@ -34,7 +34,6 @@ Todos los cambios notables de este proyecto serán documentados en este archivo.
   - `bot.py` - Bot de Telegram para gestionar comandos
   - `subscriptions.py` - Módulo de gestión de suscripciones
   - `subscriptions.json` - Base de datos de suscripciones de usuarios
-  - `migrate_v1_to_v2.py` - Script de migración de v1 a v2
   - `CHANGELOG.md` - Este archivo
 
 #### 🔄 Cambiado
@@ -66,20 +65,9 @@ Todos los cambios notables de este proyecto serán documentados en este archivo.
 - Mejorada la detección de líneas en títulos de alertas
 - Mejor manejo de errores en envío de notificaciones
 
-### 📝 Notas de Migración
-
-Si ya usabas la v1.0:
-
-1. **Actualiza tu repositorio** con los nuevos archivos
-2. **Ya no necesitas TELEGRAM_CHAT_ID** (pero si lo dejas configurado, seguirá funcionando temporalmente con el script de migración)
-3. **Inicia conversación con tu bot** en Telegram
-4. **Suscríbete a tus líneas** con `/suscribir [línea]`
-
-Opcionalmente, puedes ejecutar `migrate_v1_to_v2.py` para migrar automáticamente tu configuración anterior.
-
 ---
 
-## [1.0.0] - 2026-02-13
+## [1.0.0-beta] - 2026-02-13
 
 ### Primera versión
 

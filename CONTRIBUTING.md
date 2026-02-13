@@ -62,7 +62,7 @@ Si encuentras un error:
 6. **Commit** tus cambios:
    ```bash
    git add .
-   git commit -m "✨ Descripción clara del cambio"
+   git commit -m "Descripción clara del cambio"
    ```
 
 7. **Push** a tu fork:
@@ -82,13 +82,13 @@ Si encuentras un error:
 #### Commits
 
 Usa prefijos claros en tus commits:
-- `✨` o `feat:` Nueva funcionalidad
-- `🐛` o `fix:` Corrección de bug
-- `📝` or `docs:` Cambios en documentación
-- `🎨` or `style:` Formato, estilo (sin cambios de código)
-- `♻️` or `refactor:` Refactorización de código
-- `⚡` or `perf:` Mejoras de rendimiento
-- `✅` or `test:` Añadir o corregir tests
+- `feat:` Nueva funcionalidad
+- `fix:` Corrección de bug
+- `docs:` Cambios en documentación
+- `style:` Formato, estilo (sin cambios de código)
+- `refactor:` Refactorización de código
+- `perf:` Mejoras de rendimiento
+- `test:` Añadir o corregir tests
 
 ## 🧪 Testing
 
@@ -106,23 +106,16 @@ Antes de enviar un PR:
 
 ### Fáciles (buenas para empezar)
 - [ ] Mejorar mensajes de error
-- [ ] Añadir más emojis informativos
-- [ ] Traducir a otros idiomas
 - [ ] Mejorar documentación
 - [ ] Añadir ejemplos de uso
 
 ### Intermedias
-- [ ] Soporte para más líneas de autobús
-- [ ] Notificaciones por Discord
 - [ ] Notificaciones por email
 - [ ] Filtrado por palabras clave
 - [ ] Tests automatizados
 
 ### Avanzadas
 - [ ] Dashboard web para ver historial
-- [ ] API REST para consultar alertas
-- [ ] Base de datos para almacenar historial completo
-- [ ] Machine Learning para predecir alertas
 - [ ] Integración con Google Calendar
 
 ## ❓ ¿Dudas?

@@ -1,8 +1,8 @@
 ╔════════════════════════════════════════════════════════════════╗
 ║                                                                ║
-║   🚍 TMP MURCIA - MONITOR DE ALERTAS v2.0                     ║
-║   Sistema de Suscripciones Personalizadas                     ║
-║   Guía Rápida de Configuración                                ║
+║   🚍 TMP MURCIA - MONITOR DE ALERTAS v1.0.0                    ║
+║   Sistema de Suscripciones Personalizadas                      ║
+║   Guía Rápida de Configuración                                 ║
 ║                                                                ║
 ╚════════════════════════════════════════════════════════════════╝
 
@@ -27,10 +27,10 @@ tmp-murcia-alertas/
 ├── scraper.py                   (Script principal)
 ├── requirements.txt             (Dependencias Python)
 ├── alerts_history.json          (Historial de alertas)
-├── test_local.py               (Para probar localmente)
-├── config.example.py           (Configuración de ejemplo)
+├── test_local.py                (Para probar localmente)
+├── config.example.py            (Configuración de ejemplo)
 ├── README.md                    (Documentación completa)
-├── CONTRIBUTING.md             (Guía de contribución)
+├── CONTRIBUTING.md              (Guía de contribución)
 ├── LICENSE                      (Licencia MIT)
 └── .gitignore
 
@@ -70,9 +70,6 @@ tmp-murcia-alertas/
      Nombre: TELEGRAM_BOT_TOKEN
      Valor: [El token de BotFather]
    
-   ⚠️ YA NO NECESITAS TELEGRAM_CHAT_ID porque ahora cada usuario 
-      se suscribe individualmente con el bot.
-
 5️⃣  HABILITAR GITHUB ACTIONS
    • Ve a la pestaña "Actions" en tu repositorio
    • Click en "I understand my workflows, go ahead and enable them"
@@ -116,10 +113,6 @@ tmp-murcia-alertas/
 
 🔧 PERSONALIZACIÓN
 ────────────────────────────────────────────────────────────────
-
-Para monitorear más líneas:
-   ¡Ya no necesitas editar código! Solo usa /suscribir en el bot.
-   Cada usuario elige sus propias líneas.
 
 Para cambiar la frecuencia:
    Edita .github/workflows/monitor.yml, línea 5:
@@ -194,8 +187,6 @@ Ideas para mejorar:
    • Soporte para más ciudades
    • Notificaciones por Discord/Email
    • Dashboard web
-   • Filtrado avanzado
-   • App móvil
 
 
 💰 COSTOS
