@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Bot de Telegram para gestionar suscripciones a alertas de TMP Murcia
+Versión mejorada con mejor logging y manejo de errores
 """
 
 import requests
@@ -19,19 +20,30 @@ class TelegramBot:
         self.base_url = f"https://api.telegram.org/bot{self.token}"
         self.subscription_manager = SubscriptionManager()
         self.offset = self.load_offset()
+        print(f"📝 Offset inicial: {self.offset}")
     
     def load_offset(self) -> int:
         """Carga el último offset procesado"""
         try:
             with open('.telegram_offset', 'r') as f:
-                return int(f.read().strip())
-        except:
+                offset = int(f.read().strip())
+                print(f"📂 Offset cargado desde archivo: {offset}")
+                return offset
+        except FileNotFoundError:
+            print("ℹ️ No existe archivo de offset, comenzando desde 0")
+            return 0
+        except Exception as e:
+            print(f"⚠️ Error al cargar offset: {e}, comenzando desde 0")
             return 0
     
     def save_offset(self, offset: int):
         """Guarda el offset para la próxima ejecución"""
-        with open('.telegram_offset', 'w') as f:
-            f.write(str(offset))
+        try:
+            with open('.telegram_offset', 'w') as f:
+                f.write(str(offset))
+            print(f"💾 Offset guardado: {offset}")
+        except Exception as e:
+            print(f"⚠️ Error al guardar offset: {e}")
     
     def get_updates(self) -> list:
         """Obtiene actualizaciones pendientes de Telegram"""
@@ -39,16 +51,32 @@ class TelegramBot:
             url = f"{self.base_url}/getUpdates"
             params = {
                 'offset': self.offset,
-                'timeout': 5
+                'timeout': 0  # Sin timeout para GitHub Actions
             }
-            response = requests.get(url, params=params, timeout=10)
+            print(f"🔍 Consultando actualizaciones desde offset {self.offset}...")
+            
+            response = requests.get(url, params=params, timeout=15)
+            
+            print(f"📡 Respuesta de Telegram: Status {response.status_code}")
+            
             if response.status_code == 200:
                 data = response.json()
                 if data.get('ok'):
-                    return data.get('result', [])
-            return []
+                    updates = data.get('result', [])
+                    print(f"✅ Se obtuvieron {len(updates)} actualizaciones")
+                    return updates
+                else:
+                    print(f"❌ Error en respuesta: {data}")
+                    return []
+            else:
+                print(f"❌ Error HTTP: {response.status_code}")
+                print(f"Respuesta: {response.text[:200]}")
+                return []
+                
         except Exception as e:
-            print(f"⚠️ Error al obtener actualizaciones: {e}")
+            print(f"❌ Excepción al obtener actualizaciones: {e}")
+            import traceback
+            traceback.print_exc()
             return []
     
     def send_message(self, chat_id: str, text: str, parse_mode: str = 'Markdown'):
@@ -60,10 +88,20 @@ class TelegramBot:
                 'text': text,
                 'parse_mode': parse_mode
             }
+            
+            print(f"📤 Enviando mensaje a {chat_id}...")
             response = requests.post(url, data=data, timeout=10)
-            return response.status_code == 200
+            
+            if response.status_code == 200:
+                print(f"✅ Mensaje enviado exitosamente a {chat_id}")
+                return True
+            else:
+                print(f"❌ Error al enviar mensaje: {response.status_code}")
+                print(f"Respuesta: {response.text[:200]}")
+                return False
+                
         except Exception as e:
-            print(f"⚠️ Error al enviar mensaje: {e}")
+            print(f"❌ Excepción al enviar mensaje: {e}")
             return False
     
     def handle_start(self, chat_id: str, username: str):
@@ -206,77 +244,98 @@ El bot revisa la página de TMP cada 15 minutos y te avisa automáticamente de n
     
     def process_message(self, message: dict):
         """Procesa un mensaje recibido"""
-        chat_id = str(message['chat']['id'])
-        username = message['chat'].get('first_name', 'Usuario')
-        text = message.get('text', '')
+        try:
+            chat_id = str(message['chat']['id'])
+            username = message['chat'].get('first_name', 'Usuario')
+            text = message.get('text', '')
+            
+            # Ignorar mensajes vacíos
+            if not text:
+                print(f"⚠️ Mensaje vacío de {username} ({chat_id})")
+                return
+            
+            # Parsear comando y argumentos
+            parts = text.split(maxsplit=1)
+            command = parts[0].lower()
+            args = parts[1] if len(parts) > 1 else ''
+            
+            print(f"📨 Procesando mensaje de {username} ({chat_id}): {text}")
+            
+            # Procesar comandos
+            if command == '/start':
+                self.handle_start(chat_id, username)
+            elif command == '/suscribir':
+                self.handle_subscribe(chat_id, args)
+            elif command == '/desuscribir':
+                self.handle_unsubscribe(chat_id, args)
+            elif command == '/mis_lineas' or command == '/mislineas':
+                self.handle_my_lines(chat_id)
+            elif command == '/alertas_generales' or command == '/alertasgenerales':
+                self.handle_general_alerts(chat_id, args)
+            elif command == '/ayuda' or command == '/help':
+                self.handle_help(chat_id)
+            elif command == '/stats':
+                self.handle_stats(chat_id)
+            else:
+                print(f"⚠️ Comando no reconocido: {command}")
+                self.send_message(chat_id, f"❓ Comando no reconocido: {command}\n\nUsa /ayuda para ver los comandos disponibles.")
         
-        # Ignorar mensajes vacíos
-        if not text:
-            return
-        
-        # Parsear comando y argumentos
-        parts = text.split(maxsplit=1)
-        command = parts[0].lower()
-        args = parts[1] if len(parts) > 1 else ''
-        
-        print(f"📨 Mensaje de {username} ({chat_id}): {text}")
-        
-        # Procesar comandos
-        if command == '/start':
-            self.handle_start(chat_id, username)
-        elif command == '/suscribir':
-            self.handle_subscribe(chat_id, args)
-        elif command == '/desuscribir':
-            self.handle_unsubscribe(chat_id, args)
-        elif command == '/mis_lineas' or command == '/mislineas':
-            self.handle_my_lines(chat_id)
-        elif command == '/alertas_generales' or command == '/alertasgenerales':
-            self.handle_general_alerts(chat_id, args)
-        elif command == '/ayuda' or command == '/help':
-            self.handle_help(chat_id)
-        elif command == '/stats':
-            self.handle_stats(chat_id)
-        else:
-            self.send_message(chat_id, f"❓ Comando no reconocido: {command}\n\nUsa /ayuda para ver los comandos disponibles.")
+        except Exception as e:
+            print(f"❌ Error procesando mensaje: {e}")
+            import traceback
+            traceback.print_exc()
     
     def process_updates(self):
         """Procesa todas las actualizaciones pendientes"""
         updates = self.get_updates()
         
         if not updates:
-            print("✨ No hay mensajes nuevos")
+            print("✨ No hay mensajes nuevos en cola")
             return
         
-        print(f"📬 Procesando {len(updates)} mensaje(s)...")
+        print(f"📬 Hay {len(updates)} mensaje(s) en cola para procesar")
         
-        for update in updates:
+        for i, update in enumerate(updates):
             try:
+                update_id = update.get('update_id', 'unknown')
+                print(f"\n--- Procesando update {i+1}/{len(updates)} (ID: {update_id}) ---")
+                
                 # Actualizar offset
-                self.offset = update['update_id'] + 1
+                self.offset = int(update_id) + 1
                 
                 # Procesar mensaje
                 if 'message' in update:
                     self.process_message(update['message'])
+                else:
+                    print(f"⚠️ Update {update_id} no contiene mensaje")
             
             except Exception as e:
-                print(f"⚠️ Error procesando update {update.get('update_id')}: {e}")
+                print(f"❌ Error procesando update {update.get('update_id')}: {e}")
+                import traceback
+                traceback.print_exc()
         
         # Guardar offset
         self.save_offset(self.offset)
-        print(f"✅ Mensajes procesados correctamente")
+        print(f"\n✅ Todos los mensajes procesados correctamente")
 
 def main():
     """Función principal"""
     print("=" * 60)
-    print("🤖 Bot de Telegram - TMP Murcia")
+    print("🤖 Bot de Telegram - TMP Murcia (versión mejorada)")
     print(f"📅 {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}")
     print("=" * 60)
     
-    bot = TelegramBot()
-    bot.process_updates()
+    try:
+        bot = TelegramBot()
+        bot.process_updates()
+    except Exception as e:
+        print(f"\n❌ Error crítico: {e}")
+        import traceback
+        traceback.print_exc()
+        sys.exit(1)
     
     print("=" * 60)
-    print("✅ Procesamiento completado")
+    print("✅ Procesamiento completado exitosamente")
     print("=" * 60)
 
 if __name__ == "__main__":
