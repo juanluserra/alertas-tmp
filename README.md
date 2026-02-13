@@ -70,8 +70,6 @@ Monitor automático de alertas de autobuses TMP Murcia con **sistema de suscripc
    - Name: `TELEGRAM_BOT_TOKEN`
    - Value: El token que te dio BotFather (ej: `123456789:ABCdefGHI...`)
 
-⚠️ **Nota:** Ya NO necesitas el TELEGRAM_CHAT_ID porque ahora cada usuario se suscribe individualmente con el bot.
-
 ### Paso 4: Activar GitHub Actions
 
 1. Ve a la pestaña **Actions** en tu repositorio
@@ -107,6 +105,8 @@ Para probar que funciona sin esperar:
 4. Si hay alertas nuevas de tus líneas suscritas, ¡te llegará un mensaje de Telegram! 🎉
 
 ## 🤖 Comandos del Bot
+
+⚠️ **Nota:** El bot solo contestará a los mensajes cada 30 minutos, cerca de las horas XX:05 y XX:35.
 
 Una vez que has iniciado conversación con tu bot, puedes usar estos comandos:
 
