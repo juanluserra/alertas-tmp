@@ -4,7 +4,7 @@ Monitor automático de alertas de autobuses TMP Murcia con **sistema de suscripc
 
 ## ✨ Características
 
-- 🔄 **Monitoreo automático cada 15 minutos** usando GitHub Actions
+- 🔄 **Monitoreo automático cada 30 minutos** usando GitHub Actions
 - 📱 **Notificaciones push instantáneas** vía Telegram
 - 👤 **Sistema de suscripciones personalizadas** - cada usuario elige sus líneas
 - 🎯 **Alertas generales** - recibe avisos sin línea específica (configurable)
