@@ -1,0 +1,226 @@
+╔════════════════════════════════════════════════════════════════╗
+║                                                                ║
+║   🚍 TMP MURCIA - MONITOR DE ALERTAS v2.0                     ║
+║   Sistema de Suscripciones Personalizadas                     ║
+║   Guía Rápida de Configuración                                ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+⭐ NOVEDADES VERSION 2.0
+────────────────────────────────────────────────────────────────
+✨ Sistema de suscripciones: cada usuario elige sus líneas
+👥 Multi-usuario: varias personas pueden usar el mismo bot
+📢 Alertas generales configurables
+🤖 Bot interactivo con comandos
+
+📦 ARCHIVOS DEL PROYECTO
+────────────────────────────────────────────────────────────────
+
+✅ Estructura creada:
+tmp-murcia-alertas/
+├── .github/
+│   ├── workflows/
+│   │   └── monitor.yml          (Workflow de GitHub Actions)
+│   └── ISSUE_TEMPLATE/
+│       ├── bug_report.md
+│       └── feature_request.md
+├── scraper.py                   (Script principal)
+├── requirements.txt             (Dependencias Python)
+├── alerts_history.json          (Historial de alertas)
+├── test_local.py               (Para probar localmente)
+├── config.example.py           (Configuración de ejemplo)
+├── README.md                    (Documentación completa)
+├── CONTRIBUTING.md             (Guía de contribución)
+├── LICENSE                      (Licencia MIT)
+└── .gitignore
+
+
+🚀 PASOS PARA PONERLO EN MARCHA
+────────────────────────────────────────────────────────────────
+
+1️⃣  CREAR REPOSITORIO EN GITHUB
+   • Ve a https://github.com/new
+   • Nombre: tmp-murcia-alertas (o el que prefieras)
+   • Visibilidad: Público (para que otros puedan contribuir)
+   • NO añadas README, .gitignore, ni licencia (ya los tienes)
+   • Click en "Create repository"
+
+2️⃣  SUBIR EL CÓDIGO
+   En tu terminal, desde la carpeta del proyecto:
+   
+   git init
+   git add .
+   git commit -m "🎉 Primer commit: Monitor de alertas TMP Murcia"
+   git branch -M main
+   git remote add origin https://github.com/TU_USUARIO/tmp-murcia-alertas.git
+   git push -u origin main
+
+3️⃣  CREAR BOT DE TELEGRAM
+   • Abre Telegram y busca: @BotFather
+   • Envía: /newbot
+   • Nombre del bot: TMP Murcia Alertas (o el que quieras)
+   • Username: tmp_murcia_bot (o el que quieras, debe terminar en _bot)
+   • GUARDA EL TOKEN que te da (ej: 123456789:ABCdefGHI...)
+
+4️⃣  CONFIGURAR SECRET EN GITHUB
+   En tu repositorio de GitHub:
+   • Settings → Secrets and variables → Actions
+   • New repository secret:
+     
+     Nombre: TELEGRAM_BOT_TOKEN
+     Valor: [El token de BotFather]
+   
+   ⚠️ YA NO NECESITAS TELEGRAM_CHAT_ID porque ahora cada usuario 
+      se suscribe individualmente con el bot.
+
+5️⃣  HABILITAR GITHUB ACTIONS
+   • Ve a la pestaña "Actions" en tu repositorio
+   • Click en "I understand my workflows, go ahead and enable them"
+   • Settings → Actions → General
+   • En "Workflow permissions" selecciona "Read and write permissions"
+   • Guarda cambios
+
+6️⃣  SUSCRIBIRTE A TUS LÍNEAS FAVORITAS 🎯
+   1. Busca tu bot en Telegram (el que creaste con @BotFather)
+   2. Envía: /start
+   3. Suscríbete a las líneas que quieras:
+      /suscribir 11
+      /suscribir 44
+      /suscribir 36
+   4. Verifica: /mis_lineas
+
+7️⃣  PROBAR
+   • Actions → Monitor TMP Murcia → Run workflow
+   • Espera 30 segundos
+   • ¡Deberías recibir una notificación en Telegram! 🎉
+
+🤖 COMANDOS DEL BOT
+────────────────────────────────────────────────────────────────
+
+/suscribir [línea]      → Suscribirte a una línea
+   Ejemplo: /suscribir 11
+
+/desuscribir [línea]    → Desuscribirte de una línea
+   Ejemplo: /desuscribir 44
+
+/mis_lineas             → Ver tus suscripciones actuales
+
+/alertas_generales on   → Activar alertas sin línea (por defecto ON)
+/alertas_generales off  → Desactivar alertas generales
+
+/ayuda                  → Ver ayuda completa
+
+💡 Puedes suscribirte a TODAS las líneas que quieras.
+💡 Las alertas generales son avisos importantes sin línea específica.
+
+
+🔧 PERSONALIZACIÓN
+────────────────────────────────────────────────────────────────
+
+Para monitorear más líneas:
+   ¡Ya no necesitas editar código! Solo usa /suscribir en el bot.
+   Cada usuario elige sus propias líneas.
+
+Para cambiar la frecuencia:
+   Edita .github/workflows/monitor.yml, línea 5:
+   - cron: '*/15 * * * *'  # Cada 15 minutos
+   - cron: '*/30 * * * *'  # Cada 30 minutos
+   - cron: '0 * * * *'     # Cada hora
+
+
+📱 FORMATO DE NOTIFICACIONES
+────────────────────────────────────────────────────────────────
+
+Recibirás mensajes así:
+
+   🚌 Nueva Alerta TMP Murcia
+   
+   📍 Línea 44
+   📝 Línea 44. Corte al tráfico en Alcantarilla 
+       por Carnaval 13 y 15 febrero
+   
+   🔗 Ver detalles
+   
+   ⏰ 13/02/2026 09:30
+
+O para alertas generales:
+
+   🚌 Nueva Alerta TMP Murcia
+   
+   📍 ⚠️ Alerta General
+   📝 Nuevo descuento Bonos Tricolor
+   
+   🔗 Ver detalles
+   
+   ⏰ 13/02/2026 09:30
+
+
+🐛 SOLUCIÓN DE PROBLEMAS
+────────────────────────────────────────────────────────────────
+
+❌ No recibo notificaciones:
+   1. Verifica que estás suscrito: /mis_lineas
+   2. Si no aparece nada, suscríbete: /suscribir [línea]
+   3. Verifica que el bot responde: /start
+   4. Ve a Actions → último workflow → check-alerts
+   5. Revisa los logs en rojo
+   6. Asegúrate de haber iniciado conversación con tu bot
+
+❌ GitHub Actions no se ejecuta:
+   1. Settings → Actions → General
+   2. "Allow all actions and reusable workflows"
+   3. "Read and write permissions"
+
+❌ Error de permisos en git push:
+   1. Settings → Actions → General
+   2. Workflow permissions → "Read and write permissions"
+
+
+📊 VER ESTADÍSTICAS
+────────────────────────────────────────────────────────────────
+
+• Actions → Monitor TMP Murcia (ver todas las ejecuciones)
+• El archivo alerts_history.json guarda el historial
+
+
+🤝 CONTRIBUIR
+────────────────────────────────────────────────────────────────
+
+¡Tu repositorio público permite que otros contribuyan!
+
+Lee CONTRIBUTING.md para más detalles.
+
+Ideas para mejorar:
+   • Soporte para más ciudades
+   • Notificaciones por Discord/Email
+   • Dashboard web
+   • Filtrado avanzado
+   • App móvil
+
+
+💰 COSTOS
+────────────────────────────────────────────────────────────────
+
+TODO ES GRATIS:
+   ✅ GitHub Actions: 2000 min/mes gratis (usarás ~200 min/mes)
+   ✅ Telegram: Gratis
+   ✅ Hosting: En la nube de GitHub
+
+
+📞 SOPORTE
+────────────────────────────────────────────────────────────────
+
+¿Problemas? ¿Sugerencias?
+   → Abre un Issue en GitHub
+   → Lee el README.md completo
+   → Revisa los Issues cerrados
+
+
+═══════════════════════════════════════════════════════════════
+
+¡Listo! En 10 minutos tendrás tu monitor funcionando 24/7 🎉
+
+Cualquier duda, revisa el README.md que tiene TODO explicado
+con muchísimo más detalle.
+
+═══════════════════════════════════════════════════════════════
