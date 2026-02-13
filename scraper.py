@@ -93,7 +93,13 @@ def get_monitored_alerts(alerts, subscription_manager):
             # Alerta general (sin línea específica)
             general_alerts.append(alert)
     
-    all_monitored = line_alerts + general_alerts
+    # Mantener el orden original (tal como aparece en la web)
+    all_monitored = []
+    for alert in alerts:
+        if alert['line'] and alert['line'] in monitored_lines:
+            all_monitored.append(alert)
+        elif not alert['line']:
+            all_monitored.append(alert)
     
     print(f"📊 Alertas monitoreadas:")
     print(f"   • Con línea específica: {len(line_alerts)}")
@@ -202,12 +208,12 @@ def main():
     if new_alerts:
         print(f"\n🔔 Enviando notificaciones para {len(new_alerts)} alerta(s) nueva(s)...")
         total_sent = 0
-        for alert in new_alerts:
+        for alert in reversed(new_alerts):
             line_desc = f"Línea {alert['line']}" if alert['line'] else "General"
             print(f"\n📨 {line_desc}: {alert['title'][:50]}...")
             sent = send_telegram_notifications(alert, subscription_manager)
             total_sent += sent
-        
+                
         print(f"\n✅ Total de notificaciones enviadas: {total_sent}")
     else:
         print("\n✨ No hay alertas nuevas")
