@@ -2,6 +2,17 @@
 
 Monitor automático de alertas de autobuses TMP Murcia con **sistema de suscripciones personalizado**. Cada usuario elige qué líneas quiere monitorear y recibe notificaciones instantáneas en Telegram.
 
+## ✨ Características
+
+- 🔄 **Monitoreo automático cada 30 minutos** usando GitHub Actions
+- 📱 **Notificaciones push instantáneas** vía Telegram
+- 👤 **Sistema de suscripciones personalizadas** - cada usuario elige sus líneas
+- 🎯 **Alertas generales** - recibe avisos sin línea específica (configurable)
+- 💾 **Sin duplicados** - solo te avisa de alertas nuevas
+- 👥 **Multi-usuario** - cada persona configura sus preferencias
+- ☁️ **100% en la nube** - no necesitas tener nada encendido
+- 🆓 **Totalmente gratuito**
+
 ## 📌 Índice
 
 - [✨ Características](#-características)
@@ -31,17 +42,6 @@ Monitor automático de alertas de autobuses TMP Murcia con **sistema de suscripc
 - [💡 Ideas para Futuras Mejoras](#-ideas-para-futuras-mejoras)
 - [📄 Licencia](#-licencia)
 - [⚠️ Disclaimer](#️-disclaimer)
-
-## ✨ Características
-
-- 🔄 **Monitoreo automático cada 30 minutos** usando GitHub Actions
-- 📱 **Notificaciones push instantáneas** vía Telegram
-- 👤 **Sistema de suscripciones personalizadas** - cada usuario elige sus líneas
-- 🎯 **Alertas generales** - recibe avisos sin línea específica (configurable)
-- 💾 **Sin duplicados** - solo te avisa de alertas nuevas
-- 👥 **Multi-usuario** - cada persona configura sus preferencias
-- ☁️ **100% en la nube** - no necesitas tener nada encendido
-- 🆓 **Totalmente gratuito**
 
 ## 🚀 Configuración Rápida (10 minutos)
 
