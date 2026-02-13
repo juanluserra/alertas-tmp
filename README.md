@@ -239,13 +239,9 @@ El archivo `alerts_history.json` mantiene un registro de las alertas conocidas.
 
 ## 💡 Ideas para Futuras Mejoras
 
-- [x] ~~Sistema de suscripciones personalizado por usuario~~ ✅ **¡Implementado!**
 - [ ] Notificaciones por email como alternativa a Telegram
-- [ ] Integración con Discord
 - [ ] Filtrado por palabras clave (obras, horarios, etc.)
 - [ ] Interfaz web para ver historial de alertas
-- [ ] Análisis de patrones de alertas
-- [ ] Notificaciones programadas (ej: resumen diario)
 - [ ] Integración con Google Calendar para alertas de horarios
 - [ ] Soporte para otras ciudades/empresas de autobuses
 - [ ] Sistema de prioridad de alertas (urgente, normal, info)
