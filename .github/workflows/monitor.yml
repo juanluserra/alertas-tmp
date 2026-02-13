@@ -3,7 +3,7 @@ name: Monitor TMP Murcia
 on:
   schedule:
     # Ejecutar cada 15 minutos
-    - cron: '*/15 * * * *'
+    - cron: '*/30 * * * *'
   
   # Permitir ejecución manual desde GitHub
   workflow_dispatch:
