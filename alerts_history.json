@@ -2,12 +2,6 @@
   "last_check": "2026-02-13T10:10:51.781877",
   "alerts": [
     {
-      "code": "4530",
-      "title": "Corte al tráfico en Murcia por desfile Carnaval 13 febrero",
-      "line": null,
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4530"
-    },
-    {
       "code": "4531",
       "title": "Línea 11. Corte al tráfico en Alcantarilla por Carnaval 13 febrero",
       "line": "11",
