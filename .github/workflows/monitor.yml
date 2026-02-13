@@ -49,6 +49,19 @@ jobs:
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add alerts_history.json subscriptions.json .telegram_offset
-        git diff --quiet && git diff --staged --quiet || git commit -m "🤖 Actualizar datos [skip ci]"
-        git push
+        
+        # Añadir archivos que siempre deben existir
+        git add alerts_history.json subscriptions.json
+        
+        # Añadir .telegram_offset solo si existe
+        if [ -f .telegram_offset ]; then
+          git add .telegram_offset
+        fi
+        
+        # Hacer commit y push solo si hay cambios
+        if ! git diff --quiet || ! git diff --staged --quiet; then
+          git commit -m "🤖 Actualizar datos [skip ci]"
+          git push
+        else
+          echo "✨ No hay cambios que guardar"
+        fi
