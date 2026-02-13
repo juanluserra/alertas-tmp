@@ -1,4 +1,95 @@
 {
-  "alerts": [],
-  "last_check": null
+  "last_check": "2026-02-13T09:50:36.071786",
+  "alerts": [
+    {
+      "code": "4531",
+      "title": "Línea 11. Corte al tráfico en Alcantarilla por Carnaval 13 febrero",
+      "line": "11",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4531"
+    },
+    {
+      "code": "4534",
+      "title": "Línea 44. Corte al tráfico en Alcantarilla por Carnaval 13 y 15 febrero",
+      "line": "44",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4534"
+    },
+    {
+      "code": "4509",
+      "title": "Línea 11. Servicio Navidad del 23 de diciembre al 6 de enero.",
+      "line": "11",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4509"
+    },
+    {
+      "code": "4510",
+      "title": "Línea 44. Servicios directos UCAM Navidad 2025.",
+      "line": "44",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4510"
+    },
+    {
+      "code": "4452",
+      "title": "Línea 44. Servicios directos UCAM. Horarios a partir del 10 septiembre 2025",
+      "line": "44",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4452"
+    },
+    {
+      "code": "4090",
+      "title": "Línea 44 (Línea 12 y 15). Recorrido por Murcia a partir 3 dic. 2023",
+      "line": "44",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4090"
+    },
+    {
+      "code": "4530",
+      "title": "Corte al tráfico en Murcia por desfile Carnaval 13 febrero",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4530"
+    },
+    {
+      "code": "4448",
+      "title": "Nuevo descuento Bonos Tricolor a partir de 1 julio 2025",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4448"
+    },
+    {
+      "code": "4449",
+      "title": "Nuevo descuento Bonos Alcantarilla a partir de 1 de julio 2025.",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4449"
+    },
+    {
+      "code": "4450",
+      "title": "Nuevo descuento Bonos Beniel - Santomera a partir de 1 de julio 2025.",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4450"
+    },
+    {
+      "code": "4049",
+      "title": "Atención al Público Avda. Libertad.",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4049"
+    },
+    {
+      "code": "3877",
+      "title": "Presentación nueva Concesionaria TMP.",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=3877"
+    },
+    {
+      "code": "3878",
+      "title": "Conoce los cambios del nuevo servicio.",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=3878"
+    },
+    {
+      "code": "3879",
+      "title": "Preguntas frecuentes del servicio.",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=3879"
+    },
+    {
+      "code": "3880",
+      "title": "COVID-19",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=3880"
+    }
+  ]
 }

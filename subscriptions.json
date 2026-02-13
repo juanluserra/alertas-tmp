@@ -1,3 +1,11 @@
 {
-  "users": {}
+  "users": {
+    "6008434071": {
+      "lines": [
+        "44",
+        "11"
+      ],
+      "receive_general": true
+    }
+  }
 }
