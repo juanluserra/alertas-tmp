@@ -1,0 +1,54 @@
+name: Monitor TMP Murcia
+
+on:
+  schedule:
+    # Ejecutar cada 15 minutos
+    - cron: '*/15 * * * *'
+  
+  # Permitir ejecución manual desde GitHub
+  workflow_dispatch:
+  
+  # Ejecutar también en push para probar
+  push:
+    branches: [ main, master ]
+
+jobs:
+  check-alerts:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📥 Checkout código
+      uses: actions/checkout@v4
+      with:
+        # Necesario para poder hacer commit del historial
+        persist-credentials: true
+        fetch-depth: 0
+    
+    - name: 🐍 Configurar Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+    
+    - name: 📦 Instalar dependencias
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: 🤖 Procesar comandos del bot
+      env:
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      run: python bot.py
+    
+    - name: 🔍 Ejecutar monitor de alertas
+      env:
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      run: python scraper.py
+    
+    - name: 💾 Guardar cambios (historial y suscripciones)
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add alerts_history.json subscriptions.json .telegram_offset
+        git diff --quiet && git diff --staged --quiet || git commit -m "🤖 Actualizar datos [skip ci]"
+        git push
