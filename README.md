@@ -2,6 +2,36 @@
 
 Monitor automático de alertas de autobuses TMP Murcia con **sistema de suscripciones personalizado**. Cada usuario elige qué líneas quiere monitorear y recibe notificaciones instantáneas en Telegram.
 
+## 📌 Índice
+
+- [✨ Características](#-características)
+- [🚀 Configuración Rápida (10 minutos)](#-configuración-rápida-10-minutos)
+  - [Paso 1: Fork del Repositorio](#paso-1-fork-del-repositorio)
+  - [Paso 2: Crear Bot de Telegram](#paso-2-crear-bot-de-telegram)
+  - [Paso 3: Configurar Secret en GitHub](#paso-3-configurar-secret-en-github)
+  - [Paso 4: Activar GitHub Actions](#paso-4-activar-github-actions)
+  - [Paso 5: Suscribirte a tus líneas favoritas 🎯](#paso-5-suscribirte-a-tus-líneas-favoritas-)
+  - [Paso 6: Probar (Opcional)](#paso-6-probar-opcional)
+- [🤖 Comandos del Bot](#-comandos-del-bot)
+  - [Gestión de Suscripciones](#gestión-de-suscripciones)
+  - [Alertas Generales](#alertas-generales)
+  - [Otros Comandos](#otros-comandos)
+- [📊 Cómo Funciona](#-cómo-funciona)
+- [🔧 Personalización](#-personalización)
+  - [Cambiar la frecuencia de verificación](#cambiar-la-frecuencia-de-verificación)
+- [📱 Formato de las Notificaciones](#-formato-de-las-notificaciones)
+  - [Alertas de Línea Específica](#alertas-de-línea-específica)
+  - [Alertas Generales](#alertas-generales-1)
+- [🐛 Solución de Problemas](#-solución-de-problemas)
+  - [No recibo notificaciones](#no-recibo-notificaciones)
+  - [El workflow no se ejecuta](#el-workflow-no-se-ejecuta)
+  - [GitHub Actions dice que tengo permisos insuficientes](#github-actions-dice-que-tengo-permisos-insuficientes)
+- [📈 Estadísticas](#-estadísticas)
+- [🤝 Contribuir](#-contribuir)
+- [💡 Ideas para Futuras Mejoras](#-ideas-para-futuras-mejoras)
+- [📄 Licencia](#-licencia)
+- [⚠️ Disclaimer](#️-disclaimer)
+
 ## ✨ Características
 
 - 🔄 **Monitoreo automático cada 30 minutos** usando GitHub Actions
