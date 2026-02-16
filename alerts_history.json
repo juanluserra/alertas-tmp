@@ -1,30 +1,6 @@
 {
-  "last_check": "2026-02-16T07:45:27.014330",
+  "last_check": "2026-02-16T08:35:44.914129",
   "alerts": [
-    {
-      "code": "4530",
-      "title": "Corte al tráfico en Murcia por desfile Carnaval 13 febrero",
-      "line": null,
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4530"
-    },
-    {
-      "code": "4531",
-      "title": "Línea 11. Corte al tráfico en Alcantarilla por Carnaval 13 febrero",
-      "line": "11",
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4531"
-    },
-    {
-      "code": "4534",
-      "title": "Línea 44. Corte al tráfico en Alcantarilla por Carnaval 13 y 15 febrero",
-      "line": "44",
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4534"
-    },
-    {
-      "code": "4538",
-      "title": "Linea 31. Corte al tráfico por prueba deportiva 15 febrereo",
-      "line": null,
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4538"
-    },
     {
       "code": "4509",
       "title": "Línea 11. Servicio Navidad del 23 de diciembre al 6 de enero.",
