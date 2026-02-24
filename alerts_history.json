@@ -1,6 +1,12 @@
 {
-  "last_check": "2026-02-24T15:15:02.387906",
+  "last_check": "2026-02-24T16:33:34.864420",
   "alerts": [
+    {
+      "code": "4540",
+      "title": "Romería bajada de la Virgen de la Fuensanta. Jueves 26 de febrero.",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4540"
+    },
     {
       "code": "4509",
       "title": "Línea 11. Servicio Navidad del 23 de diciembre al 6 de enero.",
@@ -72,12 +78,6 @@
       "title": "COVID-19",
       "line": null,
       "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=3880"
-    },
-    {
-      "code": "4540",
-      "title": "Romería bajada de la Virgen de la Fuensanta. Jueves 26 de febrero.",
-      "line": null,
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4540"
     }
   ]
 }
