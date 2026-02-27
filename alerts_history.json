@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-02-27T09:03:45.497765",
+  "last_check": "2026-02-27T10:03:02.262336",
   "alerts": [
     {
       "code": "4540",
@@ -78,6 +78,12 @@
       "title": "COVID-19",
       "line": null,
       "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=3880"
+    },
+    {
+      "code": "4543",
+      "title": "Línea 44. Corte de tráfico Alcantarilla domingo 1 de marzo.",
+      "line": "44",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4543"
     }
   ]
 }
