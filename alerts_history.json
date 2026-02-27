@@ -1,11 +1,17 @@
 {
-  "last_check": "2026-02-27T10:03:02.262336",
+  "last_check": "2026-02-27T11:03:10.107345",
   "alerts": [
     {
-      "code": "4540",
-      "title": "Romería bajada de la Virgen de la Fuensanta. Jueves 26 de febrero.",
-      "line": null,
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4540"
+      "code": "4546",
+      "title": "Línea 44. Corte de tráfico en Alcantarilla 28 de febrero.",
+      "line": "44",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4546"
+    },
+    {
+      "code": "4543",
+      "title": "Línea 44. Corte de tráfico Alcantarilla domingo 1 de marzo.",
+      "line": "44",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4543"
     },
     {
       "code": "4509",
@@ -78,12 +84,6 @@
       "title": "COVID-19",
       "line": null,
       "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=3880"
-    },
-    {
-      "code": "4543",
-      "title": "Línea 44. Corte de tráfico Alcantarilla domingo 1 de marzo.",
-      "line": "44",
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4543"
     }
   ]
 }
