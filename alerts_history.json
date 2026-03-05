@@ -1,23 +1,17 @@
 {
-  "last_check": "2026-03-05T15:40:59.690078",
+  "last_check": "2026-03-05T17:54:12.033768",
   "alerts": [
     {
-      "code": "4546",
-      "title": "Línea 44. Corte de tráfico en Alcantarilla 28 de febrero.",
-      "line": "44",
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4546"
+      "code": "4547",
+      "title": "Corte de tráfico sábado 7 marzo. Desfile 175 Aniversario Entierro de las Sardina",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4547"
     },
     {
-      "code": "4543",
-      "title": "Línea 44. Corte de tráfico Alcantarilla domingo 1 de marzo.",
-      "line": "44",
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4543"
-    },
-    {
-      "code": "4509",
-      "title": "Línea 11. Servicio Navidad del 23 de diciembre al 6 de enero.",
-      "line": "11",
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4509"
+      "code": "4548",
+      "title": "Corte de tráfico domingo 8 de marzo. XI Carrera Día de la Mujer",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4548"
     },
     {
       "code": "4510",
