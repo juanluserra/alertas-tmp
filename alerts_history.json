@@ -1,18 +1,6 @@
 {
-  "last_check": "2026-03-10T07:58:41.527454",
+  "last_check": "2026-03-10T08:42:25.477195",
   "alerts": [
-    {
-      "code": "4549",
-      "title": "Corte de tráfico sábado 7 de marzo. 175 aniversario Entierro de la Sardina.",
-      "line": null,
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4549"
-    },
-    {
-      "code": "4550",
-      "title": "Corte de tráfico domingo 8 de marzo. XI Carrera Día de la Mujer",
-      "line": null,
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4550"
-    },
     {
       "code": "4510",
       "title": "Línea 44. Servicios directos UCAM Navidad 2025.",
