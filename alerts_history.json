@@ -1,12 +1,6 @@
 {
-  "last_check": "2026-03-16T07:52:17.113129",
+  "last_check": "2026-03-16T08:44:43.966068",
   "alerts": [
-    {
-      "code": "4554",
-      "title": "Líneas 44 y 91. Corte al tráfico en Alcantarilla domingo 15 de marzo",
-      "line": null,
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4554"
-    },
     {
       "code": "4510",
       "title": "Línea 44. Servicios directos UCAM Navidad 2025.",
