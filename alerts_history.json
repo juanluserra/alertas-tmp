@@ -1,12 +1,6 @@
 {
-  "last_check": "2026-03-23T06:58:22.283957",
+  "last_check": "2026-03-23T08:01:39.412903",
   "alerts": [
-    {
-      "code": "4560",
-      "title": "Corte al tráfico en Murcia por prueba deportiva sábado 21 marzo",
-      "line": null,
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4560"
-    },
     {
       "code": "4555",
       "title": "Línea 11. Semana Santa y fiestas de primavera 2026",
