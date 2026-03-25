@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-03-25T16:10:22.569341",
+  "last_check": "2026-03-25T17:34:33.188757",
   "alerts": [
     {
       "code": "4566",
@@ -12,24 +12,6 @@
       "title": "Línea 44. Cortes por procesión en Alcantarilla viernes 27 marzo 2026",
       "line": "44",
       "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4567"
-    },
-    {
-      "code": "4563",
-      "title": "Cortes por procesiones Semana Santa 2026",
-      "line": null,
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4563"
-    },
-    {
-      "code": "4564",
-      "title": "Cortes por procesiones Miércoles Santo 2026",
-      "line": null,
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4564"
-    },
-    {
-      "code": "4565",
-      "title": "Cortes por procesiones Jueves Santo 2026",
-      "line": null,
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4565"
     },
     {
       "code": "4555",
