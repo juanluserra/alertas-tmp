@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-03-25T08:52:09.886628",
+  "last_check": "2026-03-25T09:54:10.009257",
   "alerts": [
     {
       "code": "4555",
@@ -9,15 +9,9 @@
     },
     {
       "code": "4558",
-      "title": "Línea 44. Semana Santa y fiestas de primavera 2026",
+      "title": "Línea 44. UCAM. Semana Santa y fiestas de primavera 2026",
       "line": "44",
       "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4558"
-    },
-    {
-      "code": "4510",
-      "title": "Línea 44. Servicios directos UCAM Navidad 2025.",
-      "line": "44",
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4510"
     },
     {
       "code": "4452",
