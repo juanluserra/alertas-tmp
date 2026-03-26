@@ -1,17 +1,23 @@
 {
-  "last_check": "2026-03-26T18:34:17.243179",
+  "last_check": "2026-03-26T19:54:52.941842",
   "alerts": [
+    {
+      "code": "4569",
+      "title": "Línea 11. Cortes por procesiones en Alcantarilla viernes 27 marzo 2026",
+      "line": "11",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4569"
+    },
+    {
+      "code": "4572",
+      "title": "Línea 44. Cortes por procesiones en Alcantarilla viernes 27 marzo 2026",
+      "line": "44",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4572"
+    },
     {
       "code": "4566",
       "title": "Cortes por Vía Crucis Iglesia del Carmen jueves 26 marzo 2026",
       "line": null,
       "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4566"
-    },
-    {
-      "code": "4567",
-      "title": "Línea 44. Cortes por procesión en Alcantarilla viernes 27 marzo 2026",
-      "line": "44",
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4567"
     },
     {
       "code": "4555",
