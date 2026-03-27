@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-03-27T13:06:42.154523",
+  "last_check": "2026-03-27T14:31:24.887588",
   "alerts": [
     {
       "code": "4573",
@@ -26,10 +26,16 @@
       "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4572"
     },
     {
-      "code": "4566",
-      "title": "Cortes por Vía Crucis Iglesia del Carmen jueves 26 marzo 2026",
-      "line": null,
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4566"
+      "code": "4578",
+      "title": "Línea 44. Cortes por procesiones en Alcantarilla fase 1 de la Calle Mayor",
+      "line": "44",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4578"
+    },
+    {
+      "code": "4579",
+      "title": "Línea 44. Cortes por procesiones en Alcantarilla fase 1 y 2 de la Calle Mayor",
+      "line": "44",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4579"
     },
     {
       "code": "4555",
