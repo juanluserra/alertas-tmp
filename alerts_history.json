@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-03-30T05:24:41.966399",
+  "last_check": "2026-03-30T07:06:49.150279",
   "alerts": [
     {
       "code": "4573",
@@ -12,18 +12,6 @@
       "title": "Cortes de tráfico en Murcia Miércoles y Jueves Santo 2026",
       "line": null,
       "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4574"
-    },
-    {
-      "code": "4569",
-      "title": "Línea 11. Cortes por procesiones en Alcantarilla viernes 27 marzo 2026",
-      "line": "11",
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4569"
-    },
-    {
-      "code": "4572",
-      "title": "Línea 44. Cortes por procesiones en Alcantarilla viernes 27 marzo 2026",
-      "line": "44",
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4572"
     },
     {
       "code": "4578",
