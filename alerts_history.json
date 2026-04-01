@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-04-01T10:56:35.145505",
+  "last_check": "2026-04-01T11:54:48.335474",
   "alerts": [
     {
       "code": "4573",
@@ -36,6 +36,18 @@
       "title": "Cortes de tráfico en Murcia por Fiestas de Primavera 2026",
       "line": null,
       "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4581"
+    },
+    {
+      "code": "4582",
+      "title": "Cortes de tráfico en Murcia por Bando de la Huerta 2026",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4582"
+    },
+    {
+      "code": "4583",
+      "title": "Cortes de tráfico en Murcia por Entierro de la Sardina 2026",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4583"
     },
     {
       "code": "4555",
