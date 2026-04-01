@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-04-01T09:45:56.955381",
+  "last_check": "2026-04-01T10:56:35.145505",
   "alerts": [
     {
       "code": "4573",
@@ -30,6 +30,12 @@
       "title": "Corte de tráfico en Gran Vía dirección Plaza Circular por instalación de gradas",
       "line": null,
       "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4580"
+    },
+    {
+      "code": "4581",
+      "title": "Cortes de tráfico en Murcia por Fiestas de Primavera 2026",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4581"
     },
     {
       "code": "4555",
