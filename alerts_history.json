@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-04-01T08:19:59.514271",
+  "last_check": "2026-04-01T09:45:56.955381",
   "alerts": [
     {
       "code": "4573",
@@ -24,6 +24,12 @@
       "title": "Línea 44. Cortes por procesiones en Alcantarilla fase 1 y 2 de la Calle Mayor",
       "line": "44",
       "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4579"
+    },
+    {
+      "code": "4580",
+      "title": "Corte de tráfico en Gran Vía dirección Plaza Circular por instalación de gradas",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4580"
     },
     {
       "code": "4555",
