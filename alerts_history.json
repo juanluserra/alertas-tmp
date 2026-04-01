@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-04-01T16:06:38.385004",
+  "last_check": "2026-04-01T17:28:44.499607",
   "alerts": [
     {
       "code": "4573",
@@ -42,6 +42,12 @@
       "title": "Cortes de tráfico en Murcia por Bando de la Huerta 2026",
       "line": null,
       "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4582"
+    },
+    {
+      "code": "4595",
+      "title": "Bando de la Huerta. Horarios Línea 44",
+      "line": "44",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4595"
     },
     {
       "code": "4583",
