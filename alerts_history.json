@@ -1,30 +1,6 @@
 {
-  "last_check": "2026-04-12T23:34:51.569921",
+  "last_check": "2026-04-14T10:17:39.713199",
   "alerts": [
-    {
-      "code": "4599",
-      "title": "Billete gratuito Bando de la Huerta y Entierro de la Sardina 2026",
-      "line": null,
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4599"
-    },
-    {
-      "code": "4580",
-      "title": "Corte de tráfico en Gran Vía dirección Plaza Circular por instalación de gradas",
-      "line": null,
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4580"
-    },
-    {
-      "code": "4581",
-      "title": "Cortes de tráfico en Murcia por Fiestas de Primavera 2026",
-      "line": null,
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4581"
-    },
-    {
-      "code": "4583",
-      "title": "Cortes de tráfico en Murcia por Entierro de la Sardina 2026",
-      "line": null,
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4583"
-    },
     {
       "code": "4555",
       "title": "Línea 11. Semana Santa y fiestas de primavera 2026",
