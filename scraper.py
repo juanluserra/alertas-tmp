@@ -44,7 +44,7 @@ def scrape_tmp_alerts():
     """Extrae las alertas de la página de TMP"""
     try:
         print(f"🔍 Consultando {TMP_URL}...")
-        response = requests.get(TMP_URL, timeout=30)
+        response = requests.get(TMP_URL, timeout=30, verify=False)
         response.encoding = 'latin-1'  # La página usa codificación latin-1
         
         soup = BeautifulSoup(response.text, 'html.parser')
