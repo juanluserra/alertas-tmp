@@ -1,6 +1,12 @@
 {
-  "last_check": "2026-04-22T15:50:23.999135",
+  "last_check": "2026-04-22T17:00:55.276400",
   "alerts": [
+    {
+      "code": "4602",
+      "title": "Línea 44. Corte al tráfico en Murcia por prueba deportiva domingo 26 abril",
+      "line": "44",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4602"
+    },
     {
       "code": "4452",
       "title": "Línea 44. Servicios directos UCAM. Horarios a partir del 10 septiembre 2025",
