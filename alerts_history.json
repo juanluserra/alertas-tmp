@@ -1,18 +1,6 @@
 {
-  "last_check": "2026-04-27T05:54:24.651142",
+  "last_check": "2026-04-27T08:25:03.934427",
   "alerts": [
-    {
-      "code": "4603",
-      "title": "Corte de trafico en Murcia por Romería del Rocío 25 y 26 abril 2026",
-      "line": null,
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4603"
-    },
-    {
-      "code": "4602",
-      "title": "Línea 44. Corte al tráfico en Murcia por prueba deportiva domingo 26 abril",
-      "line": "44",
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4602"
-    },
     {
       "code": "4452",
       "title": "Línea 44. Servicios directos UCAM. Horarios a partir del 10 septiembre 2025",
