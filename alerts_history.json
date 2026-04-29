@@ -1,6 +1,12 @@
 {
-  "last_check": "2026-04-29T10:24:54.126719",
+  "last_check": "2026-04-29T12:01:40.259094",
   "alerts": [
+    {
+      "code": "4604",
+      "title": "Cortes de tráfico en Murcia por manifestación 1 mayo 2026",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4604"
+    },
     {
       "code": "4452",
       "title": "Línea 44. Servicios directos UCAM. Horarios a partir del 10 septiembre 2025",
