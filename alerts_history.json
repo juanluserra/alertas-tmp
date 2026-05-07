@@ -1,6 +1,12 @@
 {
-  "last_check": "2026-05-07T10:00:29.600788",
+  "last_check": "2026-05-07T12:16:15.343493",
   "alerts": [
+    {
+      "code": "4608",
+      "title": "Cortes de tráfico en Murcia prueba deportiva domingo 10 mayo 2026",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4608"
+    },
     {
       "code": "4452",
       "title": "Línea 44. Servicios directos UCAM. Horarios a partir del 10 septiembre 2025",
