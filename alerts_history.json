@@ -1,11 +1,17 @@
 {
-  "last_check": "2026-05-08T19:54:17.622622",
+  "last_check": "2026-05-08T20:59:53.104334",
   "alerts": [
     {
       "code": "4608",
       "title": "Cortes de tráfico en Murcia prueba deportiva domingo 10 mayo 2026",
       "line": null,
       "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4608"
+    },
+    {
+      "code": "4609",
+      "title": "Cortes de tráfico en El Palmar prueba deportiva domingo 10 mayo 2026",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4609"
     },
     {
       "code": "4452",
