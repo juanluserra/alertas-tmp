@@ -1,6 +1,12 @@
 {
-  "last_check": "2026-05-21T07:52:23.657331",
+  "last_check": "2026-05-21T11:24:10.407822",
   "alerts": [
+    {
+      "code": "4610",
+      "title": "Línea 44. Servicios directos UCAM hasta final de curso 2025/26",
+      "line": "44",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4610"
+    },
     {
       "code": "4452",
       "title": "Línea 44. Servicios directos UCAM. Horarios a partir del 10 septiembre 2025",
