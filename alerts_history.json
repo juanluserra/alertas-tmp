@@ -1,6 +1,12 @@
 {
-  "last_check": "2026-05-22T08:21:24.471167",
+  "last_check": "2026-05-22T11:23:52.479385",
   "alerts": [
+    {
+      "code": "4612",
+      "title": "Cortes de tráfico en Murcia por prueba deportiva domingo 24 mayo 2026",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4612"
+    },
     {
       "code": "4610",
       "title": "Línea 44. Servicios directos UCAM hasta final de curso 2025/26",
