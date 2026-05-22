@@ -1,11 +1,17 @@
 {
-  "last_check": "2026-05-22T04:43:26.365793",
+  "last_check": "2026-05-22T08:21:24.471167",
   "alerts": [
     {
       "code": "4610",
       "title": "Línea 44. Servicios directos UCAM hasta final de curso 2025/26",
       "line": "44",
       "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4610"
+    },
+    {
+      "code": "4611",
+      "title": "Línea 11. Parada anulada por cambio de ubicación mercado semanal",
+      "line": "11",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4611"
     },
     {
       "code": "4452",
