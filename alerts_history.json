@@ -1,6 +1,12 @@
 {
-  "last_check": "2026-05-28T16:13:12.326527",
+  "last_check": "2026-05-28T19:10:26.195172",
   "alerts": [
+    {
+      "code": "4628",
+      "title": "Línea 44. Cortes de tráfico en Murcia por prueba deportiva domingo 31 mayo",
+      "line": "44",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4628"
+    },
     {
       "code": "4617",
       "title": "Línea 11. Cortes por fiestas de mayo del 26 a 31 en Alcantarilla",
