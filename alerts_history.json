@@ -1,12 +1,6 @@
 {
-  "last_check": "2026-06-08T05:12:14.497645",
+  "last_check": "2026-06-08T10:02:35.434555",
   "alerts": [
-    {
-      "code": "4630",
-      "title": "Cortes de tráfico en Murcia por prueba deportiva sábado 6 junio 2026",
-      "line": null,
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4630"
-    },
     {
       "code": "4610",
       "title": "Línea 44. Servicios directos UCAM hasta final de curso 2025/26",
