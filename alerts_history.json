@@ -1,6 +1,12 @@
 {
-  "last_check": "2026-06-25T04:45:02.338471",
+  "last_check": "2026-06-25T08:22:25.524884",
   "alerts": [
+    {
+      "code": "4635",
+      "title": "Línea 11. Horarios para Julio y Agosto 2026",
+      "line": "11",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4635"
+    },
     {
       "code": "4610",
       "title": "Línea 44. Servicios directos UCAM hasta final de curso 2025/26",
