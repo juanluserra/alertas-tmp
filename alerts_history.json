@@ -1,11 +1,23 @@
 {
-  "last_check": "2026-06-25T16:23:09.276660",
+  "last_check": "2026-06-25T18:32:40.156258",
   "alerts": [
+    {
+      "code": "4637",
+      "title": "Horarios de líneas verano 2026",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4637"
+    },
     {
       "code": "4635",
       "title": "Línea 11. Horarios para Julio y Agosto 2026",
       "line": "11",
       "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4635"
+    },
+    {
+      "code": "4636",
+      "title": "Líneas 21 y 22. Horarios de verano (Agosto) 2026",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4636"
     },
     {
       "code": "4610",
