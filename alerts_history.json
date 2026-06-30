@@ -1,6 +1,18 @@
 {
-  "last_check": "2026-06-30T18:21:58.664069",
+  "last_check": "2026-06-30T20:29:20.992350",
   "alerts": [
+    {
+      "code": "4642",
+      "title": "Línea 11. Servicios mínimos 1 y 2 de julio 2026",
+      "line": "11",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4642"
+    },
+    {
+      "code": "4655",
+      "title": "Línea 44. Servicios mínimos 1 y 2 de julio 2026",
+      "line": "44",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4655"
+    },
     {
       "code": "4637",
       "title": "Horarios de líneas verano 2026",
