@@ -1,6 +1,12 @@
 {
-  "last_check": "2026-07-02T03:33:07.991733",
+  "last_check": "2026-07-02T07:31:37.627945",
   "alerts": [
+    {
+      "code": "4663",
+      "title": "Corte al tráfico en Murcia por manifestación día 2 julio 2026",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4663"
+    },
     {
       "code": "4642",
       "title": "Línea 11. Servicios mínimos 1 y 2 de julio 2026",
