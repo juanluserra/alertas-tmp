@@ -1,24 +1,6 @@
 {
-  "last_check": "2026-07-03T05:25:35.467747",
+  "last_check": "2026-07-03T08:34:41.923798",
   "alerts": [
-    {
-      "code": "4663",
-      "title": "Corte al tráfico en Murcia por manifestación día 2 julio 2026",
-      "line": null,
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4663"
-    },
-    {
-      "code": "4642",
-      "title": "Línea 11. Servicios mínimos 1 y 2 de julio 2026",
-      "line": "11",
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4642"
-    },
-    {
-      "code": "4655",
-      "title": "Línea 44. Servicios mínimos 1 y 2 de julio 2026",
-      "line": "44",
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4655"
-    },
     {
       "code": "4637",
       "title": "Horarios de líneas verano 2026",
