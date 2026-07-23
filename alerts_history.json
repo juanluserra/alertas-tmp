@@ -1,12 +1,6 @@
 {
-  "last_check": "2026-07-23T07:31:56.680618",
+  "last_check": "2026-07-23T10:21:37.839228",
   "alerts": [
-    {
-      "code": "4665",
-      "title": "Corte al tráfico en centro de Murcia domingo 19 de Julio",
-      "line": null,
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4665"
-    },
     {
       "code": "4637",
       "title": "Horarios de líneas verano 2026",
