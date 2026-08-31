@@ -1,17 +1,11 @@
 {
-  "last_check": "2026-08-31T10:35:52.663422",
+  "last_check": "2026-08-31T17:54:22.449496",
   "alerts": [
     {
       "code": "4669",
       "title": "Romería de Bajada de la Virgen de la Fuensanta jueves 3 septiembre",
       "line": null,
       "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4669"
-    },
-    {
-      "code": "4668",
-      "title": "Línea 44. Corte al tráfico por obras en Cruce del Puntal",
-      "line": "44",
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4668"
     },
     {
       "code": "4637",
