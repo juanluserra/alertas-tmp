@@ -1,11 +1,17 @@
 {
-  "last_check": "2026-09-01T07:19:06.829254",
+  "last_check": "2026-09-01T12:40:09.185134",
   "alerts": [
     {
       "code": "4669",
       "title": "Romería de Bajada de la Virgen de la Fuensanta jueves 3 septiembre",
       "line": null,
       "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4669"
+    },
+    {
+      "code": "4672",
+      "title": "Línea 44. Servicios directos UCAM a partir septiembre 2026",
+      "line": "44",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4672"
     },
     {
       "code": "4637",
@@ -24,18 +30,6 @@
       "title": "Líneas 21 y 22. Horarios de verano (Agosto) 2026",
       "line": null,
       "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4636"
-    },
-    {
-      "code": "4610",
-      "title": "Línea 44. Servicios directos UCAM hasta final de curso 2025/26",
-      "line": "44",
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4610"
-    },
-    {
-      "code": "4452",
-      "title": "Línea 44. Servicios directos UCAM. Horarios a partir del 10 septiembre 2025",
-      "line": "44",
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4452"
     },
     {
       "code": "4448",
