@@ -1,6 +1,36 @@
 {
-  "last_check": "2026-09-04T03:06:13.624054",
+  "last_check": "2026-09-04T08:08:26.915864",
   "alerts": [
+    {
+      "code": "4674",
+      "title": "Corte al tráfico en Murcia por desfiles 7 septiembre 2026",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4674"
+    },
+    {
+      "code": "4675",
+      "title": "Corte al tráfico en Murcia por desfiles 8, 10 y 11 septiembre 2026",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4675"
+    },
+    {
+      "code": "4676",
+      "title": "Corte al tráfico en Murcia por desfiles 12 septiembre 2026",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4676"
+    },
+    {
+      "code": "4677",
+      "title": "Corte al tráfico en Murcia por desfiles 13 septiembre 2026",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4677"
+    },
+    {
+      "code": "4678",
+      "title": "Corte al tráfico en Murcia por desfiles 14 septiembre 2026",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4678"
+    },
     {
       "code": "4669",
       "title": "Romería de Bajada de la Virgen de la Fuensanta jueves 3 septiembre",
