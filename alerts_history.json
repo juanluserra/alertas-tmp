@@ -1,12 +1,6 @@
 {
-  "last_check": "2026-09-09T14:10:35.236484",
+  "last_check": "2026-09-09T17:54:15.286347",
   "alerts": [
-    {
-      "code": "4674",
-      "title": "Corte al tráfico en Murcia por desfiles 7 septiembre 2026",
-      "line": null,
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4674"
-    },
     {
       "code": "4675",
       "title": "Corte al tráfico en Murcia por desfiles 8, 10 y 11 septiembre 2026",
@@ -32,10 +26,16 @@
       "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4678"
     },
     {
-      "code": "4669",
-      "title": "Romería de Bajada de la Virgen de la Fuensanta jueves 3 septiembre",
-      "line": null,
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4669"
+      "code": "4682",
+      "title": "Línea 11. Servicios mínimos 10, 11 y 14 de septiembre 2026",
+      "line": "11",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4682"
+    },
+    {
+      "code": "4696",
+      "title": "Línea 44. Servicios mínimos 10, 11 y 14 de septiembre 2026",
+      "line": "44",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4696"
     },
     {
       "code": "4672",
