@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-09-11T11:40:31.060939",
+  "last_check": "2026-09-11T15:55:47.864122",
   "alerts": [
     {
       "code": "4675",
@@ -24,6 +24,18 @@
       "title": "Corte al tráfico en Murcia por desfiles 14 septiembre 2026",
       "line": null,
       "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4678"
+    },
+    {
+      "code": "4704",
+      "title": "Romería 2026. Corte al tráfico en Murcia 15 septiembre 2026",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4704"
+    },
+    {
+      "code": "4705",
+      "title": "Romería 2026. Servicios lanzadera y primeras expediciones por línea",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4705"
     },
     {
       "code": "4682",
