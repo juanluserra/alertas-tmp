@@ -1,42 +1,6 @@
 {
-  "last_check": "2026-09-16T07:16:53.771640",
+  "last_check": "2026-09-16T12:42:49.416615",
   "alerts": [
-    {
-      "code": "4704",
-      "title": "Romería 2026. Corte al tráfico en Murcia 15 septiembre 2026",
-      "line": null,
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4704"
-    },
-    {
-      "code": "4705",
-      "title": "Romería 2026. Servicios lanzadera y primeras expediciones por línea",
-      "line": null,
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4705"
-    },
-    {
-      "code": "4715",
-      "title": "Línea 44. Servicio Especial 15 septiembre por Romería",
-      "line": "44",
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4715"
-    },
-    {
-      "code": "4678",
-      "title": "Corte al tráfico en Murcia por desfiles 14 septiembre 2026",
-      "line": null,
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4678"
-    },
-    {
-      "code": "4682",
-      "title": "Línea 11. Servicios mínimos 10, 11 y 14 de septiembre 2026",
-      "line": "11",
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4682"
-    },
-    {
-      "code": "4696",
-      "title": "Línea 44. Servicios mínimos 10, 11 y 14 de septiembre 2026",
-      "line": "44",
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4696"
-    },
     {
       "code": "4672",
       "title": "Línea 44. Servicios directos UCAM a partir septiembre 2026",
