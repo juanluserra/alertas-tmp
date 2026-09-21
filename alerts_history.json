@@ -1,11 +1,11 @@
 {
-  "last_check": "2026-09-21T05:55:33.134935",
+  "last_check": "2026-09-21T12:09:06.947449",
   "alerts": [
     {
-      "code": "4721",
-      "title": "Línea 44. Corte al tráfico en Alcantarilla domingo 20 septiembre 2026",
-      "line": "44",
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4721"
+      "code": "4722",
+      "title": "Día sin coche. Billete gratuito líneas pedanías y metropolitanas.",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4722"
     },
     {
       "code": "4672",
