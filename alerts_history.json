@@ -1,12 +1,6 @@
 {
-  "last_check": "2026-09-23T12:54:21.627893",
+  "last_check": "2026-09-23T17:43:03.974101",
   "alerts": [
-    {
-      "code": "4722",
-      "title": "Día sin coche. Billete gratuito líneas pedanías y metropolitanas.",
-      "line": null,
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4722"
-    },
     {
       "code": "4672",
       "title": "Línea 44. Servicios directos UCAM a partir septiembre 2026",
