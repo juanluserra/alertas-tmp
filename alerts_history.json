@@ -1,29 +1,11 @@
 {
-  "last_check": "2026-09-24T03:21:09.804277",
+  "last_check": "2026-09-24T08:39:43.921479",
   "alerts": [
     {
       "code": "4672",
       "title": "Línea 44. Servicios directos UCAM a partir septiembre 2026",
       "line": "44",
       "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4672"
-    },
-    {
-      "code": "4637",
-      "title": "Horarios de líneas verano 2026",
-      "line": null,
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4637"
-    },
-    {
-      "code": "4635",
-      "title": "Línea 11. Horarios para Julio y Agosto 2026",
-      "line": "11",
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4635"
-    },
-    {
-      "code": "4636",
-      "title": "Líneas 21 y 22. Horarios de verano (Agosto) 2026",
-      "line": null,
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4636"
     },
     {
       "code": "4448",
