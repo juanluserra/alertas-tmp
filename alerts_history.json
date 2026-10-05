@@ -1,12 +1,6 @@
 {
-  "last_check": "2026-10-05T02:18:44.489267",
+  "last_check": "2026-10-05T09:28:03.145973",
   "alerts": [
-    {
-      "code": "4727",
-      "title": "Línea 44. Corte al tráfico en Alcantarilla domingo 4 octubre 2026",
-      "line": "44",
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4727"
-    },
     {
       "code": "4672",
       "title": "Línea 44. Servicios directos UCAM a partir septiembre 2026",
