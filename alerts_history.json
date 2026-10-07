@@ -1,6 +1,18 @@
 {
-  "last_check": "2026-10-07T04:31:43.768126",
+  "last_check": "2026-10-07T11:31:45.926288",
   "alerts": [
+    {
+      "code": "4731",
+      "title": "Línea 11. Servicios mínimos 8 octubre 2026",
+      "line": "11",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4731"
+    },
+    {
+      "code": "4745",
+      "title": "Línea 44. Servicios mínimos 8 octubre 2026",
+      "line": "44",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4745"
+    },
     {
       "code": "4672",
       "title": "Línea 44. Servicios directos UCAM a partir septiembre 2026",
