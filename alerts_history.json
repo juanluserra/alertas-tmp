@@ -1,15 +1,21 @@
 {
-  "last_check": "2026-10-09T02:25:06.639087",
+  "last_check": "2026-10-09T09:26:45.629906",
   "alerts": [
     {
+      "code": "4753",
+      "title": "Corte al tráfico en Murcia por prueba deportiva 10 octubre 2026",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4753"
+    },
+    {
       "code": "4731",
-      "title": "Línea 11. Servicios mínimos 8 octubre 2026",
+      "title": "Línea 11. Servicios mínimos 8, 15, 22 y 29 octubre 2026",
       "line": "11",
       "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4731"
     },
     {
       "code": "4745",
-      "title": "Línea 44. Servicios mínimos 8 octubre 2026",
+      "title": "Línea 44. Servicios mínimos 8, 15, 22 y 29 octubre 2026",
       "line": "44",
       "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4745"
     },
