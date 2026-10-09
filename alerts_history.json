@@ -1,11 +1,17 @@
 {
-  "last_check": "2026-10-09T09:26:45.629906",
+  "last_check": "2026-10-09T16:27:43.496378",
   "alerts": [
     {
       "code": "4753",
       "title": "Corte al tráfico en Murcia por prueba deportiva 10 octubre 2026",
       "line": null,
       "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4753"
+    },
+    {
+      "code": "4754",
+      "title": "Línea 44. Servicios directos UCAM día 15 octubre por apertura curso",
+      "line": "44",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4754"
     },
     {
       "code": "4731",
