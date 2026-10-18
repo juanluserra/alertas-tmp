@@ -1,12 +1,6 @@
 {
-  "last_check": "2026-10-18T03:12:43.568665",
+  "last_check": "2026-10-18T08:14:30.323512",
   "alerts": [
-    {
-      "code": "4758",
-      "title": "Línea 44. Corte al tráfico en Murcia por prueba deportiva domingo 18 octubre",
-      "line": "44",
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4758"
-    },
     {
       "code": "4755",
       "title": "Desconvocada huelga de los días 15, 22 y 29 de octubre",
