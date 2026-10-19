@@ -1,17 +1,11 @@
 {
-  "last_check": "2026-10-19T01:35:27.735983",
+  "last_check": "2026-10-19T07:21:12.985876",
   "alerts": [
     {
       "code": "4755",
       "title": "Desconvocada huelga de los días 15, 22 y 29 de octubre",
       "line": null,
       "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4755"
-    },
-    {
-      "code": "4754",
-      "title": "Línea 44. Servicios directos UCAM día 15 octubre por apertura curso",
-      "line": "44",
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4754"
     },
     {
       "code": "4672",
