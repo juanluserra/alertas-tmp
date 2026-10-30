@@ -1,17 +1,11 @@
 {
-  "last_check": "2026-10-30T07:32:27.464801",
+  "last_check": "2026-10-30T14:50:52.950488",
   "alerts": [
     {
       "code": "4759",
       "title": "Línea 44. Servicio especial Todos los Santos 2026",
       "line": "44",
       "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4759"
-    },
-    {
-      "code": "4755",
-      "title": "Desconvocada huelga de los días 15, 22 y 29 de octubre",
-      "line": null,
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4755"
     },
     {
       "code": "4763",
