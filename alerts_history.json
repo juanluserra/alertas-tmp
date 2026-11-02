@@ -1,12 +1,6 @@
 {
-  "last_check": "2026-11-02T04:39:04.679023",
+  "last_check": "2026-11-02T13:07:05.314295",
   "alerts": [
-    {
-      "code": "4759",
-      "title": "Línea 44. Servicio especial Todos los Santos 2026",
-      "line": "44",
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4759"
-    },
     {
       "code": "4763",
       "title": "Líneas 21 y 22. Tarifas en Municipio de Murcia",
