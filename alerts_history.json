@@ -1,6 +1,12 @@
 {
-  "last_check": "2026-11-03T03:35:41.322255",
+  "last_check": "2026-11-03T11:38:38.593232",
   "alerts": [
+    {
+      "code": "4764",
+      "title": "Corte al tráfico en Murcia por prueba deportiva 8 Noviembre 2026",
+      "line": null,
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4764"
+    },
     {
       "code": "4763",
       "title": "Líneas 21 y 22. Tarifas en Municipio de Murcia",
