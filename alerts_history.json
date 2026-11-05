@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-11-05T17:17:45.495051",
+  "last_check": "2026-11-05T22:45:54.760935",
   "alerts": [
     {
       "code": "4764",
@@ -12,6 +12,12 @@
       "title": "Líneas 21 y 22. Tarifas en Municipio de Murcia",
       "line": null,
       "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4763"
+    },
+    {
+      "code": "4765",
+      "title": "Línea 11. Tarifas en Municipio de Murcia",
+      "line": "11",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4765"
     },
     {
       "code": "4672",
