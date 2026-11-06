@@ -1,11 +1,17 @@
 {
-  "last_check": "2026-11-06T03:12:02.592996",
+  "last_check": "2026-11-06T11:19:46.930568",
   "alerts": [
     {
       "code": "4764",
-      "title": "Corte al tráfico en Murcia por prueba deportiva 8 Noviembre 2026",
+      "title": "Corte al tráfico en Murcia por prueba deportiva 8 noviembre 2026",
       "line": null,
       "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4764"
+    },
+    {
+      "code": "4768",
+      "title": "Línea 44. Corte al tráfico en Alcantarilla domingo 8 noviembre 2026",
+      "line": "44",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4768"
     },
     {
       "code": "4763",
