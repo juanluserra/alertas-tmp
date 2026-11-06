@@ -1,5 +1,5 @@
 {
-  "last_check": "2026-11-06T11:19:46.930568",
+  "last_check": "2026-11-06T18:14:11.988851",
   "alerts": [
     {
       "code": "4764",
@@ -32,6 +32,18 @@
       "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4672"
     },
     {
+      "code": "4625",
+      "title": "Línea 91. Nuevo horario a partir del 1 de junio",
+      "line": "91",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4625"
+    },
+    {
+      "code": "4629",
+      "title": "Línea 91. Recorrido a partir del 1 junio",
+      "line": "91",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4629"
+    },
+    {
       "code": "4448",
       "title": "Nuevo descuento Bonos Tricolor a partir de 1 julio 2025",
       "line": null,
@@ -48,6 +60,12 @@
       "title": "Nuevo descuento Bonos Beniel - Santomera a partir de 1 de julio 2025.",
       "line": null,
       "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4450"
+    },
+    {
+      "code": "4401",
+      "title": "Línea 91. Nuevas paradas en Javalí Nuevo",
+      "line": "91",
+      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4401"
     },
     {
       "code": "4090",
