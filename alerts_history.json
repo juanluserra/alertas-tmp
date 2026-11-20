@@ -1,12 +1,6 @@
 {
-  "last_check": "2026-11-20T03:54:58.237834",
+  "last_check": "2026-11-20T12:31:15.572929",
   "alerts": [
-    {
-      "code": "4771",
-      "title": "Línea 44. Corte al tráfico en Murcia por prueba deportiva domingo 15 noviembre",
-      "line": "44",
-      "url": "https://tmpmurcia.es/Cuerpo.asp?codigo=4771"
-    },
     {
       "code": "4763",
       "title": "Líneas 21 y 22. Tarifas en Municipio de Murcia",
